@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+  <LinearLayout
+      android:layout_margin="5dp"
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:text=" Name:  "/>
+
+    <EditText
+        android:id="@+id/editTextName_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        />
+
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_margin="5dp"
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:text=" Age:  "/>
+
+    <EditText
+        android:id="@+id/editTextAge_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        />
+
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_margin="5dp"
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:text=" Gender:  "/>
+
+    <EditText
+        android:id="@+id/editTextGender_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        />
+
+
+  </LinearLayout>
+
+
+  <LinearLayout
+      android:layout_margin="5dp"
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:text=" Id:  "/>
+
+    <EditText
+        android:id="@+id/editTextId_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        />
+
+
+  </LinearLayout>
+
+
+
+
+
+
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/buttonAddData_id"
+            android:layout_width="300dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:text="Add Data"
+            android:textAllCaps="false"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textSize="18sp"
+             />
+
+        <Button
+            android:id="@+id/buttonDisplayData_id"
+            android:layout_width="300dp"
+            android:text="Displa All Data"
+            android:layout_margin="5dp"
+            android:textAllCaps="false"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textSize="18sp"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            android:id="@+id/buttonUpdateData_id"
+            android:layout_width="300dp"
+            android:text="Update  Data"
+            android:layout_margin="5dp"
+            android:textAllCaps="false"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textSize="20sp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/buttonDeleteData_id"
+            android:layout_width="300dp"
+            android:text="Delete  Data"
+            android:layout_margin="5dp"
+            android:textAllCaps="false"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textSize="20sp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
